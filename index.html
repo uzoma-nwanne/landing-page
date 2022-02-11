@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="backdrop"></div>
+            <header id="header">
+                <div>
+                    <button class="toggle-button">
+                        <span class="toggle-button__bar"></span>
+                        <span class="toggle-button__bar"></span>
+                        <span class="toggle-button__bar"></span>
+                    </button>
+                    <a>
+                        <img src="img/my_logo.jpg" id="header-img">
+                    </a>
+                </div>
+                <nav id="nav">
+                    <ul id="nav-links">
+                        <li class="nav-link"><a href="#features">Features</a></li>
+                        <li class="nav-link"><a href="#how-it-works">How It works</a></li>
+                        <li class="nav-link"><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <nav id="mobile-nav">
+                <ul id="mobile-nav__links">
+                    <li class="mobile-nav__link">
+                        <a href="#features">Features</a>
+                    </li>
+                    <li class="mobile-nav__link">
+                        <a href="#how-it-works">How it Works</a>
+                    </li>
+                    <li class="mobile-nav__link">
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <form method="POST" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" required placeholder="Please enter your valid email address">
+                    <input type="submit" id="submit" value="Subscribe to newsletter">
+                </form>
+                <div id="features"></div>
+                <div id="how-it-works">
+                    <video width="550" height="400" controls> 
+                        <source src="" type="video/mp4">
+                        Your browser does not support this type of video
+                    </video>
+                    
+                </div>
+                <div id="pricing"></div>
+            </main>
+        <script lang="javascript/text" src="shared.js"></script>
+    </body>
+</html>
