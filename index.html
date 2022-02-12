@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale= 1.0">
         <title>Product Landing Page</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="backdrop"></div>
@@ -46,15 +47,69 @@
                     <input type="email" id="email" required placeholder="Please enter your valid email address">
                     <input type="submit" id="submit" value="Subscribe to newsletter">
                 </form>
-                <div id="features"></div>
+                <section id="features">
+                    <article><i class="fa fa-angle-double-up" style="font-size:40px;color:#0e4f1f;"></i><h2>  99.9% uptime</h2></article>
+                    <article><i class="fa fa-hand-grab-o" style="font-size:40px;color:#0e4f1f;"></i><h2>  Excellent Support</h2></article>
+                    <article><i class="fa fa-dollar" style="font-size:40px;color:#0e4f1f;"></i><h2>  Cost Effective Solution</h2></article>
+                    <article><i class="fa fa-gear" style="font-size:40px;color:#0e4f1f;"></i><h2>  Easy Setup</h2></article>
+                </section>
                 <div id="how-it-works">
                     <video width="550" height="400" controls> 
                         <source src="" type="video/mp4">
                         Your browser does not support this type of video
                     </video>
-                    
                 </div>
-                <div id="pricing"></div>
+                <section id="product-overview">
+                    <h1>Get the freedom you deserve.</h1>
+                </section>
+                <section id="pricing">
+                    <h1 class="section-title">Choose Your Plan</h1>
+                    <div class="plan__list">
+                        <article class="plan">
+                            <h1 class="plan__title">FREE</h1>
+                            <h2 class="plan__price">$0/month</h2>
+                            <h3>For hobby projects or small teams.</h3>
+                            <ul class="plan__features">
+                                <li class="plan__feature">1 Workspace</li>
+                                <li class="plan__feature">Unlimited Traffic</li>
+                                <li class="plan__feature">10GB Storage</li>
+                                <li class="plan__feature">Basic Support</li>
+                            </ul>
+                            <div>
+                                <button class="button">CHOOSE PLAN</button>
+                            </div>
+                        </article>
+                        <article class="plan plan--highlighted">
+                            <h1 class="plan__annotation">RECOMMENDED</h1>
+                            <h1 class="plan__title">PLUS</h1>
+                            <h2 class="plan__price">$29/month</h2>
+                            <h3>For ambitious projects.</h3>
+                            <ul class="plan__features">
+                                <li class="plan__feature">5 Workspaces</li>
+                                <li class="plan__feature">Unlimited Traffic</li>
+                                <li class="plan__feature">100GB Storage</li>
+                                <li class="plan__feature">Plus Support</li>
+                            </ul>
+                            <div>
+                                <button class="button">CHOOSE PLAN</button>
+                            </div>
+                        </article>
+                        <article class="plan">
+                            <h1 class="plan__title">PREMIUM</h1>
+                            <h2 class="plan__price">$99/month</h2>
+                            <h3>Your enterprise solution.</h3>
+                            <ul class="plan__features">
+                                <li class="plan__feature">10 Workspaces</li>
+                                <li class="plan__feature">Unlimited Traffic</li>
+                                <li class="plan__feature">Unlimited Storage</li>
+                                <li class="plan__feature">Priority Support</li>
+                            </ul>
+                            <div>
+                                <button class="button">CHOOSE PLAN</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
             </main>
         <script lang="javascript/text" src="shared.js"></script>
     </body>
